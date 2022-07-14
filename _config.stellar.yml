@@ -1,0 +1,9 @@
+sidebar:
+  logo:
+    title: '[<img no-lazy height="32px" src="https://cdn.jsdelivr.net/gh/xry1/Blog-Image/img/QQ图片20220714200218.jpg"/><span>DarthRY</span>](/)'
+  menu:
+    post: '[博客](/)'
+    wiki: '[专栏](/wiki/)'
+    notes: '[笔记](/notes/)'
+    more: '[更多](/more/)'
+  
