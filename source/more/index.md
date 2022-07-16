@@ -1,0 +1,80 @@
+---
+robots: 'index,nofollow'
+menu_id: more
+seo_title: 关于
+sidebar: [welcome, toc]
+toc_title: 关于我
+comment_title: 来过，就留下您的脚印吧～
+comment_id: '留言板'
+comments: true
+breadcrumb: false
+header: false
+indent: true
+description: 本站是xaoxuu的个人站，博主目前主要从事于iOS开发行业，活跃于开源社区，热衷于设计和打磨美妙的东西。代表作有：ProHUD、ValueX、Stellar、心率管家等。
+---
+
+{% about avatar:https://fastly.jsdelivr.net/gh/cdn-x/xaoxuu/avatar/rect-256@2x.png height:80px %}
+
+<img height="32px" alt="XAOXUU" src="https://fastly.jsdelivr.net/gh/cdn-x/xaoxuu/logo/180x30@2x.png">
+
+{% tabs align:left %}
+
+<!-- tab 简介 -->
+
+**如果宇宙中真有什么终极的逻辑，那就是我们终有一天会在舰桥上重逢，直到生命终结。**
+
+本站是[@xaoxuu](https://xaoxuu.com)的个人站，博主目前主要从事于 iOS 开发行业，活跃于开源社区，热衷于设计和打磨美妙的东西。代表作有：[ProHUD](/wiki/prohud/)、[ValueX](/wiki/valuex/)、[Stellar](/wiki/stellar/)、[心率管家](/wiki/heartmate/)等，更多的作品可以去项目主页查看，希望大家喜欢～
+
+<!-- tab 音乐 -->
+
+非常热爱音乐，喜欢的品类很多，尤其喜爱[Hans Zimmer](https://music.163.com/#/artist?id=34517)和[Two Steps From Hell](https://music.163.com/#/artist?id=102714)的史诗音乐，夜深人静的时候喜欢听[Ludovico Einaudi](https://music.163.com/#/artist?id=38127)的钢琴曲，能量不足的时候会听一些电音或摇滚来充电，心灰意冷的时候会听一些十年前常听的轻音乐怀旧，那时我还特别喜欢[班得瑞](https://music.163.com/#/artist?id=88149)的音乐。
+
+<!-- tab 游戏 -->
+
+| 游戏            | 推荐指数 | 游玩时间 |
+| :-------------- | :------- | :------- |
+| Red Alert 2 | ★★★★        | 2005-2012     |
+| World of Warcraft | ★★★★☆        | 2006-2020     |
+| Red Alert 3 | ★★★★☆        | 2013-2021     |
+| Minecraft       | ★★★★        | 2013-2016     |
+| Bad Piggies        | ★★★★★        | 2014-2017     |
+| Terraria        | ★★★★☆        | 2014-2021     |
+| Don‘t Starve    | ★★★★☆        | 2015-2021     |
+| Ori and the Blind Forest | ★★★★★        | 2018-2020     |
+| Human Fall Flat | ★★★★★★       | 2018-2021     |
+
+<!-- tab 话题 -->
+
+此外，也热衷于欣赏和学习这方面的知识：产品设计、摄影、天文。
+
+
+{% endtabs %}
+
+{% navbar [文章](/) [项目](/wiki/) [GitHub](https://github.com/xaoxuu) [GitLab](http://42.192.89.158:8099/explore) [友链](/friends/) [留言](#comments) %}
+
+{% endabout %}
+
+{% quot icon:hashtag 近期开源日程 %}
+
+开源项目无任何盈利目的，只在工作闲暇时间进行维护，有相关需求请前往对应项目提 Issue 进行反馈，通过私人邮件询问开源项目问题可能得不到答复。
+
+{% timeline %}
+
+<!-- node ProHUD 迭代 -->
+
+- 针对 Swift 5 进行代码优化。
+- 继续发布 cocoapods （已经中断了几个版本）
+
+<!-- node ValueX 迭代 -->
+
+目前存在冗余操作，需要优化代码以提高运行效率。
+
+<!-- node Stellar 2.0 & Volantis 6.0 -->
+
+Stellar 2.0 与 Volantis 6.0 配置格式统一，便于切换，且 Volantis 6.0 在外观上进行重新设计。
+
+{% endtimeline %}
+
+{% quot icon:hashtag 如何支持博主 %}
+
+本站没有任何推广和打赏链接，如果您觉得哪个作品不错，欢迎去对应的仓库点个赞，或者在对应的文章下面留言互动一下。{% emoji qq 可爱 %}
