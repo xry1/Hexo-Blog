@@ -14,3 +14,18 @@ Stellar:
     repo: xaoxuu/hexo-theme-stellar
     'issue-term': 'Q & A'
 
+Notes:
+  title: 便笺
+  logo:
+    src: https://fastly.jsdelivr.net/gh/cdn-x/wiki@1.0.2/stellar/icon.svg
+    small: 112px
+    large: 240px
+  description:
+  index: false
+  sidebar: [toc]
+  tags: 便笺
+  sections:
+    '日常问题解决方案': [100, 199]
+    '移动端开发笔记': [200, 299]
+    '前端学习笔记': [300, 399]
+    '在线工具': [400, 499]

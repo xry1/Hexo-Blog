@@ -47,7 +47,8 @@ sidebar:
       layout: markdown
       title: 欢迎，旅行者：
       content: | # support markdown
-        网站还在调试捏 {% :smile: %}
+        网站还在调试捏 🐂
+        
 
 
 

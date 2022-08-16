@@ -12,8 +12,10 @@ language:
   - zh-CN
   - en
 timezone: 'Asia/Shanghai'
-avatar: https://cdn.jsdelivr.net/gh/xry1/Blog-Image/img/QQ图片20220714200218.jpg
-favicon: https://cdn.jsdelivr.net/gh/xry1/Blog-Image/img/QQ图片20220714200218.jpg
+avatar: https://img.joexile.xyz/img/favicon.png
+favicon: https://img.joexile.xyz/img/favicon.png
+
+
 # URL 网址
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://example.com
@@ -101,7 +103,33 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: stellar
-
+githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
+  styles:
+  customEmojis:
+## markdown 渲染引擎配置，默认是hexo-renderer-marked，这个插件渲染速度更快，且有新特性
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - markdown-it-footnote
+    - markdown-it-sup
+    - markdown-it-sub
+    - markdown-it-abbr
+    - markdown-it-emoji
+  anchors:
+    level: 2
+    collisionSuffix: 'v'
+    permalink: false
+    permalinkClass: header-anchor
+    permalinkSymbol: ¶
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:

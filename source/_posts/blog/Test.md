@@ -12,3 +12,5 @@ tags: [测试]
 
 test
 
+{% emoji 爱你 %}
+
