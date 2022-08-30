@@ -1,18 +1,96 @@
 Stellar:
   title: Stellar
-  subtitle: 每个人的独立博客
+  subtitle: '每个人的独立博客 | Designed by xaoxuu'
   tags: 博客主题
   cover: true
   logo:
-    src: https://fastly.jsdelivr.net/gh/cdn-x/wiki@1.0.2/stellar/icon.svg
-    small: 112px
-    large: 240px
+    src: https://img.joexile.xyz/img/icon.svg
+    small: 108px
+    large: 180px
   description: Stellar 是一个内置 wiki 系统的 hexo 主题，适合综合型站点使用。同时也拥有简约而精美的视觉设计和丰富的标签插件，帮助您简单从容地应对各种场合。
+  index: true
+  sections:
+    '快速开始': [0, 99]
+    '基本使用': [100, 199]
+    '文档系统': [200, 299]
+    '进阶设定': [900, 999]
   repo: xaoxuu/hexo-theme-stellar
   comment_title: '评论区仅供交流，有问题请提 [issue](https://github.com/xaoxuu/hexo-theme-stellar/issues) 反馈。'
   beaudar:
     repo: xaoxuu/hexo-theme-stellar
     'issue-term': 'Q & A'
+
+
+Volantis:
+  title: Volantis
+  tags: 博客主题
+  cover: [logo, description]
+  logo:
+    src: https://fastly.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
+    small: 80px
+    large: 120px
+  description: Volantis 是一个高度模块化的 Hexo 主题，拥有丰富的内置标签和第三方插件支持，拥有庞大的开发者团队和年轻活跃的社区文化。
+  repo: volantis-x/hexo-theme-volantis
+  beaudar:
+    repo: 'volantis-x/community'
+    'issue-number': 115
+
+
+Git:
+  title: Git 实用教程
+  tags: 笔记
+  logo:
+    src: https://fastly.jsdelivr.net/gh/cdn-x/wiki@1.0.2/git/icon.svg
+    small: 96px
+    large: 128px
+  description: Git 是目前世界上最先进的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。
+  start: 开始阅读
+  cover: true
+
+
+hexo.sh:
+  title: Hexo 博客管理脚本
+  tags: 实用工具
+  cover: true
+  logo:
+    src: https://fastly.jsdelivr.net/gh/cdn-x/wiki@1.0.2/hexo.sh/screenshot.png
+  description: 此脚本可以很方便执行各种 hexo 命令，开启后会一直保持会话，随时输入简短的命令去执行一系列操作，提高效率。
+  repo: xaoxuu/hexo.sh
+  branch: master
+
+
+'vim-cn.sh':
+  title: 一行命令上传图片到图床的脚本
+  tags: 实用工具
+  logo:
+    src: https://fastly.jsdelivr.net/gh/cdn-x/wiki@1.0.2/vim-cn.sh/screenshot.png
+  description: img.vim-cn.com 是一个十分干净好用的图床站点。
+  repo: xaoxuu/vim-cn.sh
+  branch: master
+
+
+tag.sh:
+  title: Git快速打tag的脚本
+  tags: 实用工具
+  description: 这个脚本可以很方便发布 git 版本，提高效率。
+  repo: xaoxuu/tag.sh
+  branch: master
+
+Resume:
+  title: Resume
+  tags: 博客主题
+  cover: true
+  logo:
+    src: https://fastly.jsdelivr.net/gh/cdn-x/wiki@1.0.2/resume/icon.svg
+    small: 96px
+    large: 180px
+  description: 一个干净简约的商务风轻量级在线简历主题。
+  index: true
+  repo: xaoxuu/hexo-theme-resume
+  beaudar:
+    repo: xaoxuu/hexo-theme-resume
+    'issue-term': 'Q & A'
+
 
 Notes:
   title: 便笺
@@ -23,7 +101,7 @@ Notes:
   description:
   index: false
   sidebar: [toc]
-  tags: 便笺
+  tags: 笔记
   sections:
     '日常问题解决方案': [100, 199]
     '移动端开发笔记': [200, 299]
