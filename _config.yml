@@ -18,7 +18,7 @@ favicon: https://img.joexile.xyz/img/avatar_circle2.png
 
 # URL 网址
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://blog.darthry.top
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
