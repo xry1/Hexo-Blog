@@ -1,9 +1,0 @@
-title: Git 快速打 Tag 脚本
-tags: [实用工具]
-description: 一个方便发布 Git 版本的脚本。
-base_dir: wiki/tag.sh/
-repo: xaoxuu/tag.sh
-branch: master
-tree:
-  开始阅读:
-    - index

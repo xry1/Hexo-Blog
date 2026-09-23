@@ -10,11 +10,6 @@ menubar:
       icon: default:documents
       title: 博客
       url: /
-    - id: wiki
-      theme: '#3DC550'
-      icon: default:documents
-      title: 专栏
-      url: /wiki/
     - id: notes
       theme: '#7C4DFF'
       icon: default:pin
@@ -53,9 +48,6 @@ footer:
         - '[分类](/categories/)'
         - '[标签](/tags/)'
         - '[归档](/archives/)'
-    - title: 项目
-      items:
-        - '[开源库](/wiki/)'
     - title: 社交
       items:
         - '[留言板](/more/)'
