@@ -1,0 +1,52 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "博客：新建文章",
+      "type": "process",
+      "command": "npm.cmd",
+      "args": ["run", "post:new", "--", "${input:postTitle}"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    },
+    {
+      "label": "博客：本地预览",
+      "type": "process",
+      "command": "npm.cmd",
+      "args": ["run", "server"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    },
+    {
+      "label": "博客：清理并构建",
+      "type": "process",
+      "command": "npm.cmd",
+      "args": ["run", "build:clean"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    },
+    {
+      "label": "博客：发布新文章",
+      "dependsOn": ["博客：清理并构建", "博客：提交并推送文章"],
+      "dependsOrder": "sequence",
+      "problemMatcher": []
+    },
+    {
+      "label": "博客：提交并推送文章",
+      "type": "process",
+      "command": "npm.cmd",
+      "args": ["run", "post:publish"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "postTitle",
+      "type": "promptString",
+      "description": "新文章标题"
+    }
+  ]
+}
