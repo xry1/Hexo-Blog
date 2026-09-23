@@ -1,6 +1,6 @@
 ---
 title: WordPress乔迁Hexo
-cover: https://img.joexile.xyz/img/img_153_1023x619_96_null_normal.jpg
+cover: https://img.darthry.top/picbed/1ea85fb9fa5a69851c97a028612e1ad7.jpg
 date: 2022-07-15 11:31:17
 updated:
 categories: [博客测试]
