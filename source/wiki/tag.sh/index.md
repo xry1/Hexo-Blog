@@ -1,5 +1,4 @@
 ---
-layout: wiki
 wiki: tag.sh
 title: 「tag.sh」一个方便发布git版本的脚本
 ---

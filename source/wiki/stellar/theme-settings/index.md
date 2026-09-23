@@ -1,5 +1,4 @@
 ---
-layout: wiki
 wiki: Stellar
 order: 100
 title: 基本信息配置

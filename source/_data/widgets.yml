@@ -1,0 +1,5 @@
+welcome:
+  layout: markdown
+  title: 欢迎，旅行者：
+  content: |
+    网站还在调试捏

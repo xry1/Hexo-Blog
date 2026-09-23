@@ -2,7 +2,6 @@
 robots: noindex,nofollow
 sitemap: false
 menu_id: notes
-layout: wiki
 wiki: Notes
 title: Idea 相关问题
 order: 101

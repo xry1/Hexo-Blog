@@ -1,5 +1,4 @@
 ---
-layout: wiki
 wiki: Java
 seo_title: 优雅~实在是太优雅了~
 title: Java

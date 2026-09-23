@@ -1,0 +1,13 @@
+title: 便笺
+tags: [笔记]
+logo:
+  avatar: '[https://fastly.jsdelivr.net/gh/cdn-x/wiki@1.0.2/stellar/icon.svg](/notes/)'
+  title: '[便笺](/notes/)'
+base_dir: notes/
+tree:
+  概览:
+    - index
+  日常问题解决方案:
+    - idea
+  在线工具:
+    - json

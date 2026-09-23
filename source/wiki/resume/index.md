@@ -1,5 +1,4 @@
 ---
-layout: wiki
 wiki: Resume
 title: 一个简约的在线简历主题
 ---

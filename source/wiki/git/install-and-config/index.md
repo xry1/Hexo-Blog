@@ -1,5 +1,4 @@
 ---
-layout: wiki
 wiki: Git
 title: 安装与配置
 order: 1

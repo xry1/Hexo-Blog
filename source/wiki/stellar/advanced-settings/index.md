@@ -1,5 +1,4 @@
 ---
-layout: wiki
 wiki: Stellar
 order: 900
 title: 探索个性化选项

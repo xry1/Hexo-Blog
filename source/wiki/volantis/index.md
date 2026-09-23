@@ -1,5 +1,4 @@
 ---
-layout: wiki
 wiki: Volantis
 title: Volantis for Hexo
 ---

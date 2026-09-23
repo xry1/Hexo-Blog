@@ -1,5 +1,4 @@
 ---
-layout: wiki
 wiki: Git
 title: 搭建 Git 服务器
 order: 3

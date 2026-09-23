@@ -1,9 +1,65 @@
-sidebar:
-  logo:
-    title: Darth-RY
-  menu:
-    post: '[博客](/)'
-    wiki: '[专栏](/wiki/)'
-    notes: '[便笺](/notes/)'
-    more: '[更多](/more/)'
-  
+logo:
+  avatar: '[{config.avatar}](/)'
+  title: '[Darth-RY](/)'
+  subtitle: '{config.subtitle}'
+
+menubar:
+  items:
+    - id: post
+      theme: '#1BCDFC'
+      icon: default:documents
+      title: 博客
+      url: /
+    - id: wiki
+      theme: '#3DC550'
+      icon: default:documents
+      title: 专栏
+      url: /wiki/
+    - id: notes
+      theme: '#7C4DFF'
+      icon: default:pin
+      title: 便笺
+      url: /notes/
+    - id: more
+      theme: '#FA6400'
+      icon: default:github
+      title: 更多
+      url: /more/
+
+site_tree:
+  home:
+    leftbar: welcome, recent
+  index_blog:
+    leftbar: welcome, recent
+  page:
+    leftbar: welcome
+    rightbar: toc
+
+footer:
+  social:
+    github:
+      icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/08a41b181ce68.svg"/>'
+      url: https://github.com/xry1
+    music:
+      icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/3845874.svg"/>'
+      url: https://music.163.com/#/user/home?id=1726226194
+    comments:
+      icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/942ebbf1a4b91.svg"/>'
+      url: /about/#comments
+  sitemap:
+    - title: 博客
+      items:
+        - '[近期](/)'
+        - '[分类](/categories/)'
+        - '[标签](/tags/)'
+        - '[归档](/archives/)'
+    - title: 项目
+      items:
+        - '[开源库](/wiki/)'
+    - title: 社交
+      items:
+        - '[留言板](/more/)'
+    - title: 更多
+      items:
+        - '[关于本站](/more/)'
+        - '[GitHub](https://github.com/xry1)'

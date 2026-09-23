@@ -1,5 +1,4 @@
 ---
-layout: wiki
 wiki: Stellar
 order: 103
 title: 编写文章以及独立页面

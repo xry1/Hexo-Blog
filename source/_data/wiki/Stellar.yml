@@ -1,0 +1,18 @@
+title: Stellar
+subtitle: 每个人的独立博客 | Designed by xaoxuu
+tags: [博客主题]
+cover: https://fastly.jsdelivr.net/gh/cdn-x/wiki@1.0.2/stellar/icon.svg
+description: Stellar 是一个内置 Wiki 系统的 Hexo 主题，适合综合型站点使用，同时拥有简约的视觉设计和丰富的标签插件。
+base_dir: wiki/stellar/
+repo: xaoxuu/hexo-theme-stellar
+tree:
+  快速开始:
+    - index
+  基本使用:
+    - theme-settings
+    - pages
+    - tag-plugins
+  文档系统:
+    - wiki-settings
+  进阶设定:
+    - advanced-settings

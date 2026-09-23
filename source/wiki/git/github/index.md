@@ -1,5 +1,4 @@
 ---
-layout: wiki
 wiki: Git
 title: 使用 GitHub
 order: 4

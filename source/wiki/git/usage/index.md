@@ -1,5 +1,4 @@
 ---
-layout: wiki
 wiki: Git
 title: 基本操作入门
 order: 2

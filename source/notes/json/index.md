@@ -2,7 +2,6 @@
 robots: noindex,nofollow
 sitemap: false
 menu_id: notes
-layout: wiki
 wiki: Notes
 order: 401
 seo_title: Json在线解析工具

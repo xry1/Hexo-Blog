@@ -1,0 +1,12 @@
+title: Volantis
+tags: [博客主题]
+cover: https://fastly.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
+logo:
+  avatar: '[https://fastly.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png](/wiki/volantis/)'
+  title: '[Volantis](/wiki/volantis/)'
+description: Volantis 是一个高度模块化的 Hexo 主题，拥有丰富的内置标签和第三方插件支持。
+base_dir: wiki/volantis/
+repo: volantis-x/hexo-theme-volantis
+tree:
+  开始阅读:
+    - index

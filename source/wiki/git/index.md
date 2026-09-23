@@ -1,12 +1,9 @@
 ---
-layout: wiki
 wiki: Git
 title: 认识 Git
 references:
-  - title: RUNOOB：Git 教程
-    url: https://www.runoob.com/git/git-tutorial.html
-  - title: 廖雪峰的官方网站：Git 教程
-    url: https://www.liaoxuefeng.com/
+  - '[RUNOOB：Git 教程](https://www.runoob.com/git/git-tutorial.html)'
+  - '[廖雪峰的官方网站：Git 教程](https://www.liaoxuefeng.com/)'
 ---
 
 <!-- more -->

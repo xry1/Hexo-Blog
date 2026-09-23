@@ -1,0 +1,13 @@
+title: Hexo 博客管理脚本
+tags: [实用工具]
+cover: https://fastly.jsdelivr.net/gh/cdn-x/wiki@1.0.2/hexo.sh/screenshot.png
+logo:
+  avatar: '[https://fastly.jsdelivr.net/gh/cdn-x/wiki@1.0.2/hexo.sh/screenshot.png](/wiki/hexo.sh/)'
+  title: '[Hexo 博客管理脚本](/wiki/hexo.sh/)'
+description: 用简短命令执行一系列 Hexo 操作的博客管理脚本。
+base_dir: wiki/hexo.sh/
+repo: xaoxuu/hexo.sh
+branch: master
+tree:
+  开始阅读:
+    - index

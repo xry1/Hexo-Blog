@@ -1,5 +1,4 @@
 ---
-layout: wiki
 wiki: hexo.sh
 title: 一个方便管理与发布hexo博客的脚本
 h1: 开始使用

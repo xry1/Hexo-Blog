@@ -1,5 +1,4 @@
 ---
-layout: wiki
 wiki: Stellar
 order: 201
 title: 如何使用文档系统

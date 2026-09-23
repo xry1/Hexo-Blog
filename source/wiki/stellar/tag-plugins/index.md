@@ -1,5 +1,4 @@
 ---
-layout: wiki
 wiki: Stellar
 order: 105
 title: 使用标签插件增强阅读体验
